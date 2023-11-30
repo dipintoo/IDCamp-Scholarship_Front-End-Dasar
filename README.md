@@ -80,4 +80,5 @@ Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 5.
 
 # Sertifikat  
 Setelah menyelesaikan submission dan dinyatakan lolos saya mendapatkan sertifikat kelulusan. Berikut [kredensialnya](https://www.dicoding.com/certificates/N9ZOO3236ZG5).  
+
 ![Sertifikat](https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/blob/main/img/Sertifikat-Front-End.png)  
