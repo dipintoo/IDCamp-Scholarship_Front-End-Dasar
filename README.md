@@ -19,13 +19,13 @@ Berikut kriteria submission yang harus Anda penuhi.
 - Data buku yang disimpan merupakan objek JavaScript dengan struktur berikut:
 
 <pre>
-```{
+{
   id: string | number,
   title: string,
   author: string,
   year: number,
   isComplete: boolean,
-}```
+}
 </pre>
 
 - Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep *semantic HTML* dalam menyusun struktur website). Contohnya:
