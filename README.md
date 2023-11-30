@@ -48,18 +48,14 @@ Berikut kriteria submission yang harus Anda penuhi.
   - Rak buku "Selesai dibaca" hanya menyimpan buku jika properti isComplete bernilai true.
 
 - Kriteria 3: Dapat Memindahkan Buku antar Rak
-  Buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat dipindahkan di antara keduanya.
+  - Buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat dipindahkan di antara keduanya.
 
+- Kriteria 4: Dapat Menghapus Data Buku
+  - Buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat dihapus.
 
-
-Kriteria 4: Dapat Menghapus Data Buku
-Buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat dihapus.
-
-
-
-Kriteria 5: Manfaatkan localStorage dalam Menyimpan Data Buku
-Data buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat bertahan walaupun halaman web ditutup.
-Dengan begitu, Anda harus menyimpan data buku pada localStorage.
+- Kriteria 5: Manfaatkan localStorage dalam Menyimpan Data Buku
+  - Data buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat bertahan walaupun halaman web ditutup.
+    Dengan begitu, Anda harus menyimpan data buku pada localStorage.
 
 ## Penilaian
 Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan dari parameter yang ada. Anda dapat menerapkan beberapa saran untuk mendapatkan nilai tinggi. Berikut sarannya.
