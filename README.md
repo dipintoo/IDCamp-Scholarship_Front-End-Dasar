@@ -79,5 +79,5 @@ Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 5.
 ![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/blob/main/img/Submission%20Rating%20Front-End%20Dasar.png)  
 
 # Sertifikat  
-Setelah menyelesaikan submission dan dinyatakan lolos saya mendapatkan sertifikat. Berikut link untuk [kredensialnya](https://www.dicoding.com/certificates/N9ZOO3236ZG5)
-![Sertifikat Front End Dasar]([https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/blob/main/img/Sertifikat%20Front-End.png)  
+Setelah menyelesaikan submission dan dinyatakan lolos saya mendapatkan sertifikat. Berikut link untuk [kredensialnya](https://www.dicoding.com/certificates/N9ZOO3236ZG5)  
+![Sertifikat]([https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/blob/main/img/Sertifikat%20Front-End.png)  
