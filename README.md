@@ -74,8 +74,6 @@ Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan dari par
 # Hasil Submission Saya  
 Saya membuat aplikasi website bernama [**Databook**](https://idcampfront-end-dasar.dipintoo.repl.co/) dengan fungsi bisa menambahkan, menghapus, mengedit dan dapat mengelompokkan buku yang belum selesai dibaca (ongoing) dan sudah selesai dibaca (completed). Selain itu ada fitur pencarian untuk memfilter judul buku tertentu dan custom dialog yang muncul sebagai notifikasi ataupun konfirmasi saat menambahkan dan menghapus data buku untuk meningkatkan pengalaman pengguna. Saya juga berusaha membuat desain UI yang simple dan menarik agar mudah dinavigasikan.  
 
-[![Thumbnail]([url_gambar](https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/blob/main/img/Thumbnail.png))](https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/tree/main)
-
 Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 5.
 
 ![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/blob/main/img/Submission%20Rating%20Front-End%20Dasar.png)
