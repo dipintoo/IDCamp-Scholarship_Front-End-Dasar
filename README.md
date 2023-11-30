@@ -18,29 +18,29 @@ Berikut kriteria submission yang harus Anda penuhi.
 - Kriteria 1: Mampu Menambahkan Data Buku
 - Data buku yang disimpan merupakan objek JavaScript dengan struktur berikut:
 
-<pre>
-{
-  id: string | number,
-  title: string,
-  author: string,
-  year: number,
-  isComplete: boolean
-}
-</pre>  
+  <pre>
+  {
+    id: string | number,
+    title: string,
+    author: string,
+    year: number,
+    isComplete: boolean
+  }
+  </pre>  
+  
+  Contohnya:  
+  <pre>
+  {
+    id: 3657848524,
+    title: 'Harry Potter and the Philosopher\'s Stone',
+    author: 'J.K Rowling',
+    year: 1997,
+    isComplete: false
+  }
+  </pre>  
 
-Contohnya:  
-<pre>
-{
-  id: 3657848524,
-  title: 'Harry Potter and the Philosopher\'s Stone',
-  author: 'J.K Rowling',
-  year: 1997,
-  isComplete: false
-}
-</pre>  
-
-Catatan:
-Untuk id buku pada tiap buku yang disimpan haruslah unik. Tips dalam menetapkan nilai untuk adalah Anda bisa memanfaatkan nilai timestamp. Untuk mendapatkan nilai timestamp di JavaScript cukup mudah, cukup dengan menuliskan expressions `+new Date()`.
+  Catatan:
+  Untuk id buku pada tiap buku yang disimpan haruslah unik. Tips dalam menetapkan nilai untuk adalah Anda bisa memanfaatkan nilai timestamp. Untuk mendapatkan nilai timestamp di   JavaScript cukup mudah, cukup dengan menuliskan expressions `+new Date()`.
 
 - Kriteria 2: Memiliki Dua Rak Buku
   - Bookshelf Apps harus memiliki 2 Rak buku. Yakni, “Belum selesai dibaca” dan “Selesai dibaca”.
