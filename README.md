@@ -76,4 +76,7 @@ Saya membuat aplikasi website bernama [**Databook**](https://idcampfront-end-das
 
 Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 5.
 
-![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/blob/main/img/Submission%20Rating%20Front-End%20Dasar.png)
+![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/blob/main/img/Submission%20Rating%20Front-End%20Dasar.png)  
+
+# Sertifikat  
+![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/blob/main/img/Submission%20Rating%20Front-End%20Dasar.png)  
