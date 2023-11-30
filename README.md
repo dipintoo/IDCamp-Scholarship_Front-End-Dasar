@@ -24,18 +24,20 @@ Berikut kriteria submission yang harus Anda penuhi.
   title: string,
   author: string,
   year: number,
-  isComplete: boolean,
+  isComplete: boolean
 }
 </pre>  
 
 Contohnya:  
 <pre>
+  {
   id: 3657848524,
   title: 'Harry Potter and the Philosopher\'s Stone',
   author: 'J.K Rowling',
   year: 1997,
-  isComplete: false,
-<pre>
+  isComplete: false
+  }
+</pre>
 
 - Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep *semantic HTML* dalam menyusun struktur website). Contohnya:
   
