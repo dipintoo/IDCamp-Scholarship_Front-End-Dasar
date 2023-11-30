@@ -17,6 +17,8 @@ Setelah menyelesaikan project pertama [Pemrograman Web Dasar dengan HTML, CSS da
 Berikut kriteria submission yang harus Anda penuhi.
 - Kriteria 1: Mampu Menambahkan Data Buku
 - Data buku yang disimpan merupakan objek JavaScript dengan struktur berikut:
+
+<pre>
 ```{
   id: string | number,
   title: string,
@@ -24,6 +26,7 @@ Berikut kriteria submission yang harus Anda penuhi.
   year: number,
   isComplete: boolean,
 }```
+</pre>
 
 - Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep *semantic HTML* dalam menyusun struktur website). Contohnya:
   
