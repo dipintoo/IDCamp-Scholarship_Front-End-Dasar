@@ -11,7 +11,7 @@ Saya sendiri memilih alur belajar sebagai Front End Web Developer. Untuk mendapa
 - **Bintang 5** - Semua ketentuan terpenuhi dan menerapkan semua saran di atas.
 
 # [2/2] Front-End Dasar  
-Setelah menyelesaikan project pertama [Pemrograman Web Dasar dengan HTML, CSS dan JavaScript](https://github.com/dipintoo/IDCamp-Scholarship_Pemrograman-Web-Dasar/tree/main) selanjutnya kita akan mengerjakan submission membuat Front-End Web Dasar. Berikut kriteria dan penilaiannya:
+Setelah menyelesaikan project pertama [Pemrograman Web Dasar](https://github.com/dipintoo/IDCamp-Scholarship_Pemrograman-Web-Dasar/tree/main) selanjutnya kita akan mengerjakan submission membuat Front-End Web Dasar. Berikut kriteria dan penilaiannya:
 
 ## Kriteria
 Berikut kriteria submission yang harus Anda penuhi.
