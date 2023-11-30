@@ -64,6 +64,7 @@ Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan dari par
 - Tambahkan fitur pencarian untuk mem-filter buku yang ditampilkan pada rak sesuai dengan title buku yang dituliskan pada kolom pencarian.
 - Berkreasilah dengan membuat proyek Bookshelf Apps tanpa menggunakan project starter.
 - Menuliskan kode dengan bersih.
+  
   - Bersihkan comment dan kode yang tidak digunakan.
   - Indentasi yang sesuai.
 - Terdapat improvisasi fitur seperti (pilih satu):
