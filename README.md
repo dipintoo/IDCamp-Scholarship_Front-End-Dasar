@@ -10,11 +10,21 @@ Saya sendiri memilih alur belajar sebagai Front End Web Developer. Untuk mendapa
 - **Bintang 4** - Semua ketentuan terpenuhi dan menerapkan minimal salah satu saran di atas.
 - **Bintang 5** - Semua ketentuan terpenuhi dan menerapkan semua saran di atas.
 
-# [1/2] Pemrograman Web Dasar dengan HTML, CSS dan JavaScript  
+# [2/2] Front-End Dasar  
+Setelah menyelesaikan project pertama [Pemrograman Web Dasar dengan HTML, CSS dan JavaScript](https://github.com/dipintoo/IDCamp-Scholarship_Pemrograman-Web-Dasar/tree/main) selanjutnya kita akan mengerjakan submission membuat Front-End Web Dasar. Berikut kriteria dan penilaiannya:
 
 ## Kriteria
 Berikut kriteria submission yang harus Anda penuhi.
-- Terdapat elemen `<header>`, `<footer>`, `<main>`, `<article>`, dan `<aside>` di berkas HTML.
+- Kriteria 1: Mampu Menambahkan Data Buku
+- Data buku yang disimpan merupakan objek JavaScript dengan struktur berikut:
+```{
+  id: string | number,
+  title: string,
+  author: string,
+  year: number,
+  isComplete: boolean,
+}```
+
 - Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep *semantic HTML* dalam menyusun struktur website). Contohnya:
   
   - Tidak terdapat duplikasi elemen `<main>`.
@@ -46,7 +56,7 @@ Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan dari par
   - dan lainnya yang mendukung tampilan website agar lebih hidup.
  
 # Hasil Submission Saya  
-Saya membuat website adopsi anjing dengan HTML dan CSS dengan sedikit sentuhan JavaScript untuk mengubah warna tema websitenya. Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 4. Berikut [Detail Submission-nya >>](https://www.dicoding.com/academysubmissions/2515363)
+Saya membuat website adopsi anjing dengan HTML dan CSS dengan sedikit sentuhan JavaScript untuk mengubah warna tema websitenya. Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 4.
 
 ![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Pemrograman-Web-Dasar/blob/main/Submission%20Rating%20Pemrograman%20Web%20Dasar.png
 )
