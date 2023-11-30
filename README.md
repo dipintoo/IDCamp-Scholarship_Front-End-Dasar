@@ -60,24 +60,16 @@ Berikut kriteria submission yang harus Anda penuhi.
 ## Penilaian
 Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan dari parameter yang ada. Anda dapat menerapkan beberapa saran untuk mendapatkan nilai tinggi. Berikut sarannya.
 
-- Menerapkan tampilan aplikasi yang menarik.
-  - Memiliki pemilihan warna yang pas dengan tema aplikasi. Dalam memilih warna, Anda dapat memanfaatkan tools pemilihan warna seperti [colorhunt.co](https://colorhunt.co/).
-  - Tata letak elemen yang pas. Contoh: Tidak ada konten yang bertumpuk.
-  - Penggunaan font yang pas dengan tema.
-  - Penerapan padding dan margin yang pas.
-
-- Menerapkan layout yang responsif.
-  - Menggunakan media query untuk menyesuaikan layout pada berbagai ukuran layar device.
-  - Pastikan untuk tidak terdapat konten yang menumpuk maupun keluar dari kontainer ketika dicoba pada dekstop, tablet, dan juga mobile.
-
-- Terdapat penerapan JavaScript dalam memanipulasi DOM. Berikut contoh-contoh penerapan JavaScript dan silakan pilih salah satu.
-  - Membuat dropdown.
-  - Memanfaatkan logika seperti looping dalam menampilkan elemen dan konten.
-  - Membuat slider.
-  - dan lainnya yang mendukung tampilan website agar lebih hidup.
+- Tambahkan fitur pencarian untuk mem-filter buku yang ditampilkan pada rak sesuai dengan title buku yang dituliskan pada kolom pencarian.
+- Berkreasilah dengan membuat proyek Bookshelf Apps tanpa menggunakan project starter.
+- Menuliskan kode dengan bersih.
+  - Bersihkan comment dan kode yang tidak digunakan.
+  - Indentasi yang sesuai.
+- Terdapat improvisasi fitur seperti (pilih satu):
+- Custom Dialog ketika menghapus buku.
+- Dapat edit data buku.
  
 # Hasil Submission Saya  
-Saya membuat website adopsi anjing dengan HTML dan CSS dengan sedikit sentuhan JavaScript untuk mengubah warna tema websitenya. Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 4.
+Saya membuat aplikasi website bernama **Databook** dengan fungsi bisa menambahkan, menghapus, mengedit dan dapat mengelompokkan buku yang belum selesai dibaca (ongoing) dan sudah selesai dibaca (completed). Selain itu ada fitur pencarian untuk memfilter judul buku tertentu dan custom dialog yang muncul sebagai notifikasi ataupun konfirmasi saat menambahkan dan menghapus data buku untuk meningkatkan pengalaman pengguna. Saya juga berusaha membuat desain UI yang simple dan menarik agar mudah dinavigasikan. Dari penilaian yang diberikan saya berhasil mendapatkan rating bintang 5.
 
-![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Pemrograman-Web-Dasar/blob/main/Submission%20Rating%20Pemrograman%20Web%20Dasar.png
-)
+![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/blob/main/Submission%20Rating%20Front-End%20Dasar.png)
