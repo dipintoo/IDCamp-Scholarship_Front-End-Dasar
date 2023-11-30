@@ -30,14 +30,22 @@ Berikut kriteria submission yang harus Anda penuhi.
 
 Contohnya:  
 <pre>
-  {
+{
   id: 3657848524,
   title: 'Harry Potter and the Philosopher\'s Stone',
   author: 'J.K Rowling',
   year: 1997,
   isComplete: false
-  }
-</pre>
+}
+</pre>  
+
+Catatan:
+Untuk id buku pada tiap buku yang disimpan haruslah unik. Tips dalam menetapkan nilai untuk adalah Anda bisa memanfaatkan nilai timestamp. Untuk mendapatkan nilai timestamp di JavaScript cukup mudah, cukup dengan menuliskan expressions `+new Date()`.
+
+- Kriteria 2: Memiliki Dua Rak Buku
+  - Bookshelf Apps harus memiliki 2 Rak buku. Yakni, “Belum selesai dibaca” dan “Selesai dibaca”.
+  - Rak buku "Belum selesai dibaca" hanya menyimpan buku jika properti isComplete bernilai false.
+  - Rak buku "Selesai dibaca" hanya menyimpan buku jika properti isComplete bernilai true.
 
 - Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep *semantic HTML* dalam menyusun struktur website). Contohnya:
   
