@@ -39,7 +39,7 @@ Berikut kriteria submission yang harus Anda penuhi.
   }
   </pre>  
 
-  Catatan:
+  **Catatan:**
   Untuk id buku pada tiap buku yang disimpan haruslah unik. Tips dalam menetapkan nilai untuk adalah Anda bisa memanfaatkan nilai timestamp. Untuk mendapatkan nilai timestamp di   JavaScript cukup mudah, cukup dengan menuliskan expressions `+new Date()`.
 
 - Kriteria 2: Memiliki Dua Rak Buku
@@ -47,16 +47,19 @@ Berikut kriteria submission yang harus Anda penuhi.
   - Rak buku "Belum selesai dibaca" hanya menyimpan buku jika properti isComplete bernilai false.
   - Rak buku "Selesai dibaca" hanya menyimpan buku jika properti isComplete bernilai true.
 
-- Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep *semantic HTML* dalam menyusun struktur website). Contohnya:
-  
-  - Tidak terdapat duplikasi elemen `<main>`.
-  - Elemen <main> harus berada diantara <header> dan `<footer>`.
-  - Harus terdapat elemen <header> sebelum <main> dan `<footer>` sesudah `<main>`.
-  - Jika terdapat elemen `<header>` atau `<footer>` di dalam elemen `<article>` atau `<aside>`, maka hal tersebut diperbolehkan.
-- Wajib menampilkan menampilkan foto di elemen `<aside>`. Anda boleh menampilkan foto diri Anda sekaligus menampilkan biodata lainnya atau Anda juga bisa menampilkan foto yang relevan
-  dengan konten yang Anda tulis.
-- Menyusun layout menggunakan **flexbox**, bukan **float**.
-- Semakin detail dan lengkap website Anda maka nilai submission akan makin tinggi.
+- Kriteria 3: Dapat Memindahkan Buku antar Rak
+  Buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat dipindahkan di antara keduanya.
+
+
+
+Kriteria 4: Dapat Menghapus Data Buku
+Buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat dihapus.
+
+
+
+Kriteria 5: Manfaatkan localStorage dalam Menyimpan Data Buku
+Data buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" harus dapat bertahan walaupun halaman web ditutup.
+Dengan begitu, Anda harus menyimpan data buku pada localStorage.
 
 ## Penilaian
 Submission Anda akan dinilai oleh reviewer dengan skala 1-5 berdasarkan dari parameter yang ada. Anda dapat menerapkan beberapa saran untuk mendapatkan nilai tinggi. Berikut sarannya.
