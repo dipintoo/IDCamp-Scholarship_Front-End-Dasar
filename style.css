@@ -10,27 +10,32 @@
   --background-color: #fafafb;
   --focus-input-bg: #bfd7fe40;
 }
+
 * {
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: var(--background-color);
 }
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding-inline: 1rem;
   padding-bottom: 2rem;
 }
+
 main {
   border: 1px solid var(--border-color);
   padding: 1rem;
   margin-top: 2rem;
   background-color: white;
 }
+
 input {
   padding: 16px;
   width: 100%;
@@ -38,6 +43,7 @@ input {
   outline: none;
   font-size: 16px;
 }
+
 input:focus {
   background-color: var(--focus-input-bg);
 }
@@ -46,22 +52,27 @@ input:focus {
 h1 {
   font-size: 2.4rem;
 }
+
 h2 {
   box-shadow: 0 0 0 1px var(--border-color);
   width: 100%;
   padding: 1rem;
 }
+
 h1,
 h2 {
   color: var(--primary-color);
 }
+
 p {
   line-height: 1.6;
 }
+
 a {
   text-decoration: none;
   color: var(--primary-color);
 }
+
 i {
   font-size: 3rem;
   color: var(--primary-color);
@@ -77,22 +88,27 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
 button:hover {
   opacity: 0.8;
 }
+
 .primary-btn {
   width: 100%;
 }
+
 .subtle-btn {
   width: 100%;
   background-color: var(--subtle-color-bg);
   color: var(--subtle-color-dark);
 }
+
 .outline-btn {
   background-color: transparent;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+
 .edit-btn {
   position: absolute;
   top: 6px;
@@ -100,21 +116,26 @@ button:hover {
   background-color: transparent;
   color: black;
 }
+
 .edit-btn:hover {
   text-decoration: underline;
 }
+
 #inputBook button {
   display: grid;
   margin: auto;
   margin-top: 1rem;
   width: 50%;
 }
+
 #searchBook button {
   width: 6rem;
 }
+
 .dialog button {
   width: 100%;
 }
+
 .login button {
   width: 6rem;
 }
@@ -123,6 +144,7 @@ button:hover {
 header {
   border-bottom: 1px solid var(--border-color);
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -131,25 +153,30 @@ nav {
   max-width: 1000px;
   margin: 0 auto;
 }
+
 .logo {
   display: flex;
   align-items: center;
   gap: 0.4rem;
 }
+
 .logotype,
 .logogram {
   font-weight: bold;
 }
+
 .logotype {
   font-size: 1.6rem;
   color: var(--text-color-primary);
 }
+
 .logogram {
   padding-inline: 6px;
   font-size: 1.4rem;
   background-color: var(--primary-color);
   color: white;
 }
+
 .login {
   display: flex;
 }
@@ -162,6 +189,7 @@ nav {
   gap: 2rem;
   height: 50dvh;
 }
+
 .hero-copy {
   display: flex;
   flex-direction: column;
@@ -173,12 +201,15 @@ nav {
 #inputBook {
   width: 50%;
 }
+
 #inputBookTitle {
   border-bottom: none;
 }
+
 #inputBookYear {
   border-left: none;
 }
+
 .input-under {
   display: flex;
 }
@@ -189,9 +220,11 @@ nav {
   align-items: center;
   margin-top: 0.6rem;
 }
+
 .completed span {
   margin-left: 0.6rem;
 }
+
 input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
@@ -204,6 +237,7 @@ input[type="checkbox"] {
   background-color: white;
   padding: 0.4rem;
 }
+
 input[type="checkbox"]:checked::before {
   content: "";
   height: 60%;
@@ -222,6 +256,7 @@ input[type="checkbox"]:checked::before {
   align-items: center;
   margin-bottom: 1rem;
 }
+
 .search-box input {
   height: 2.46rem;
 }
@@ -231,6 +266,7 @@ input[type="checkbox"]:checked::before {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .book_item {
   position: relative;
   box-shadow: 0 0 0 1px var(--border-color);
@@ -238,13 +274,16 @@ input[type="checkbox"]:checked::before {
   background-color: white;
   transition: box-shadow 0.3s;
 }
+
 .book_item h3 {
   margin-bottom: 0.6rem;
   color: var(--text-color-primary);
 }
+
 .book_item p {
   color: var(--subtle-color-dark);
 }
+
 .action {
   display: flex;
   margin-top: 1rem;
@@ -263,19 +302,24 @@ dialog {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   text-align: center;
-  width: 30rem;
+  width: 93%;
+  max-width: 32rem;
 }
+
 .dialog #editBookAuthor {
   border-block: none;
 }
+
 .dialog p {
   margin-block: 1rem;
 }
+
 .dialog-btn {
   display: flex;
   cursor: pointer;
   margin-top: 1.6rem;
 }
+
 #overlay {
   display: none;
   position: fixed;
@@ -295,14 +339,17 @@ dialog {
   text-align: center;
   color: var(--subtle-color-dark);
 }
+
 .legal-stuff span {
   margin-bottom: 1rem;
 }
+
 .legal-stuff a {
   margin-inline: 10px;
   color: var(--subtle-color-dark);
   text-decoration: underline;
 }
+
 .legal-stuff a:hover {
   color: var(--text-color-primary);
 }
@@ -312,35 +359,48 @@ dialog {
   #inputBook {
     width: 100%;
   }
+
   .hero {
     display: grid;
     justify-content: center;
     text-align: center;
     padding-block: 3rem;
-    height: 70dvh;
+    height: 32rem;
   }
+
   .hero-copy {
     gap: 1rem;
     max-width: 520px;
   }
+
   #searchBook {
     justify-content: center;
   }
+
   .search-box {
     width: 100%;
   }
 }
+
 @media (max-width: 680px) {
   .bookshelf {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+
   .logotype {
     display: none;
   }
+
   .logogram {
     padding-inline: 6px;
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dialog-btn {
+    display: grid;
   }
 }
