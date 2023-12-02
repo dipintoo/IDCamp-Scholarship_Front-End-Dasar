@@ -371,7 +371,7 @@ dialog {
       justify-content: center;
       text-align: center;
       padding-block: 3rem;
-      height: 32rem;
+      min-height: 34rem;
    }
 
    .hero-copy {
