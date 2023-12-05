@@ -193,7 +193,7 @@ nav i {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  min-height: 75dvh;
+  min-height: 50dvh;
 }
 
 .hero-copy {
@@ -410,5 +410,9 @@ dialog {
 @media (max-width: 480px) {
   .dialog-btn {
     display: grid;
+  }
+
+  .hero {
+    min-height: 85dvh;
   }
 }
