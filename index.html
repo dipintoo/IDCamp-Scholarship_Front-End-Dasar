@@ -1,112 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="icon" href="img/favicon.ico" sizes="16x16" />
+    <title>Databook App</title>
+  </head>
 
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="style.css" />
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-   <link rel="icon" href="img/favicon.ico" sizes="16x16" />
-   <title>Databook App</title>
-</head>
+  <body>
+    <!-- Elemen overlay -->
+    <div id="overlay"></div>
 
-<body>
-   <!-- Elemen overlay -->
-   <div id="overlay"></div>
-
-   <!-- Nav -->
-   <header class="header">
+    <!-- Nav -->
+    <header class="header">
       <nav>
-         <div class="logo">
-            <div class="databook">
-               <p class="logogram">Db</p>
-            </div>
-            <p class="logotype">Databook</p>
-         </div>
-         <i class="bi bi-three-dots-vertical"></i>
-         <div class="login">
-            <button>Login</button>
-            <button class="outline-btn">Register</button>
-         </div>
+        <div class="logo">
+          <div class="databook">
+            <p class="logogram">Db</p>
+          </div>
+          <p class="logotype">Databook</p>
+        </div>
+        <i class="bi bi-three-dots-vertical"></i>
+        <div class="login">
+          <button>Login</button>
+          <button class="outline-btn">Register</button>
+        </div>
       </nav>
-   </header>
+    </header>
 
-   <div class="container">
+    <div class="container">
       <!-- Hero Section -->
       <section class="hero">
-         <div class="hero-copy">
-            <h1>Databook App</h1>
-            <p>Effortlessly manage your completed and ongoing literary adventures. Begin your reading journey now!</p>
-            <a href="#">Input your book details >></a>
-         </div>
-         <!-- Form untuk menambahkan buku -->
-         <form id="inputBook">
-            <label for="inputBookTitle"></label>
-            <input type="text" id="inputBookTitle" required placeholder="Title" />
+        <div class="hero-copy">
+          <h1>Databook App</h1>
+          <p>Effortlessly manage your completed and ongoing literary adventures. Begin your reading journey now!</p>
+          <a href="#">Input your book details >></a>
+        </div>
+        <!-- Form untuk menambahkan buku -->
+        <form id="inputBook">
+          <label for="inputBookTitle"></label>
+          <input type="text" id="inputBookTitle" required placeholder="Title" />
 
-            <div class="input-under">
-               <label for="inputBookAuthor"></label>
-               <input type="text" id="inputBookAuthor" required placeholder="Author" />
+          <div class="input-under">
+            <label for="inputBookAuthor"></label>
+            <input type="text" id="inputBookAuthor" required placeholder="Author" />
 
-               <label for="inputBookYear"></label>
-               <input type="text" id="inputBookYear" required placeholder="Year" pattern="[0-9]{4}" maxlength="4"
-                  title="Please input the year as a 4-digit number, such as 2023." />
-            </div>
+            <label for="inputBookYear"></label>
+            <input type="text" id="inputBookYear" required placeholder="Year" pattern="[0-9]{4}" maxlength="4" title="Please input the year as a 4-digit number, such as 2023." />
+          </div>
 
-            <div class="completed">
-               <label for="inputBookIsComplete"></label>
-               <input type="checkbox" id="inputBookIsComplete" />
-               <span>Completed</span>
-            </div>
-            <button type="submit">Add Book</button>
-         </form>
+          <div class="completed">
+            <label for="inputBookIsComplete"></label>
+            <input type="checkbox" id="inputBookIsComplete" />
+            <span>Completed</span>
+          </div>
+          <button type="submit">Add Book</button>
+        </form>
       </section>
 
       <main>
-         <!-- Form untuk melakukan pencarian buku -->
-         <form id="searchBook">
-            <div class="search-box">
-               <label for="searchBookTitle"></label>
-               <input type="text" id="searchBookTitle" placeholder="Search Title" />
-            </div>
-            <button type="submit">Search</button>
-         </form>
+        <!-- Form untuk melakukan pencarian buku -->
+        <form id="searchBook">
+          <div class="search-box">
+            <label for="searchBookTitle"></label>
+            <input type="text" id="searchBookTitle" placeholder="Search Title" />
+          </div>
+          <button type="submit">Search</button>
+        </form>
 
-         <!-- Data Buku -->
-         <div class="bookshelf">
-            <!-- Daftar buku ongoing -->
-            <div id="incompleteBookshelf">
-               <h2>Ongoing</h2>
-               <div id="incompleteBookshelfList"></div>
-            </div>
+        <!-- Data Buku -->
+        <div class="bookshelf">
+          <!-- Daftar buku ongoing -->
+          <div id="incompleteBookshelf">
+            <h2>Ongoing</h2>
+            <div id="incompleteBookshelfList"></div>
+          </div>
 
-            <!-- Daftar buku completed -->
-            <div id="completeBookshelf">
-               <h2>Completed</h2>
-               <div id="completeBookshelfList"></div>
-            </div>
-         </div>
+          <!-- Daftar buku completed -->
+          <div id="completeBookshelf">
+            <h2>Completed</h2>
+            <div id="completeBookshelfList"></div>
+          </div>
+        </div>
       </main>
-   </div>
+    </div>
 
-   <!-- Kotak Dialog Konfirmasi Hapus Buku -->
-   <dialog id="deleteConfirmationDialog" class="dialog">
+    <!-- Kotak Dialog Konfirmasi Hapus Buku -->
+    <dialog id="deleteConfirmationDialog" class="dialog">
       <i class="bi bi-trash"></i>
       <p>Are you sure you want to delete this book?</p>
       <div class="dialog-btn">
-         <button id="confirmDeleteButton">Yes</button>
-         <button class="subtle-btn" id="cancelDeleteButton">No</button>
+        <button id="confirmDeleteButton">Yes</button>
+        <button class="subtle-btn" id="cancelDeleteButton">No</button>
       </div>
-   </dialog>
+    </dialog>
 
-   <!-- Kotak Dialog Berhasil Menambahkan Buku  -->
-   <dialog id="notificationDialog" class="dialog">
+    <!-- Kotak Dialog Berhasil Menambahkan Buku  -->
+    <dialog id="notificationDialog" class="dialog">
       <i class="bi bi-check-circle"></i>
       <p>Book information has been successfully added!</p>
-   </dialog>
+    </dialog>
 
-   <!-- Formulir Edit Buku -->
-   <dialog id="editBookForm" class="dialog">
+    <!-- Formulir Edit Buku -->
+    <dialog id="editBookForm" class="dialog">
       <h2>Edit Book</h2>
       <label for="editBookTitle"></label>
       <input type="text" id="editBookTitle" required />
@@ -118,27 +116,26 @@
       <input type="text" id="editBookYear" required placeholder="Year" pattern="[0-9]{4}" maxlength="4" />
 
       <div class="completed">
-         <input type="checkbox" id="editBookIsComplete" />
-         <span>Completed</span>
-         <label for="editBookIsComplete"></label>
+        <input type="checkbox" id="editBookIsComplete" />
+        <span>Completed</span>
+        <label for="editBookIsComplete"></label>
       </div>
 
       <div class="dialog-btn">
-         <button id="saveEditButton">Save</button>
-         <button class="subtle-btn" id="cancelEditButton">Cancel</button>
+        <button id="saveEditButton">Save</button>
+        <button class="subtle-btn" id="cancelEditButton">Cancel</button>
       </div>
-   </dialog>
+    </dialog>
 
-   <!-- Footer -->
-   <footer class="container">
+    <!-- Footer -->
+    <footer class="container">
       <div class="legal-stuff">
-         <span>Copyright &copy; 2023<a href="https://codepen.io/dipintoo/collections/public">Rahmad dipinto</a></span>
-         <br />
-         <p>All Right Reserved.</p>
+        <span>Copyright &copy; 2023<a href="https://codepen.io/dipintoo/collections/public">Rahmad dipinto</a></span>
+        <br />
+        <p>All Right Reserved.</p>
       </div>
-   </footer>
+    </footer>
 
-   <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

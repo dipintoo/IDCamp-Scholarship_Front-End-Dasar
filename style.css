@@ -193,6 +193,7 @@ nav i {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  padding-block: 2rem;
   min-height: 50dvh;
 }
 
@@ -360,30 +361,38 @@ dialog {
 }
 
 /*------------ MEDIA QUERY ------------*/
-@media (max-width: 800px) {
-  #inputBook {
-    width: 80%;
-  }
 
+@media (max-width: 1024px) {
   .hero {
     flex-direction: column;
     gap: 2rem;
     place-content: center;
     text-align: center;
+    min-height: 82dvh;
   }
 
   .hero-copy {
-    max-width: 520px;
+    max-width: 540px;
   }
 
-  .search-box {
-    width: 100%;
+  #inputBook {
+    width: 80%;
   }
 }
 
-@media (max-width: 680px) {
+@media (768px <= width <= 1024px) {
+  .hero {
+    min-height: 60dvh;
+  }
+}
+
+@media (max-width: 640px) {
   nav i {
     display: block;
+  }
+
+  .logotype {
+    display: none;
   }
 
   .login {
@@ -395,24 +404,22 @@ dialog {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-
-  .logotype {
-    display: none;
-  }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 540px) {
   #inputBook {
     width: 100%;
   }
-}
-
-@media (max-width: 480px) {
-  .dialog-btn {
-    display: grid;
-  }
 
   .hero {
-    min-height: 85dvh;
+    min-height: 90dvh;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  .dialog-btn {
+    display: grid;
   }
 }
