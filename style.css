@@ -380,7 +380,7 @@ dialog {
   }
 }
 
-@media (768px <= width <= 1024px) {
+@media (768px <=width <=1024px) {
   .hero {
     min-height: 60dvh;
   }
@@ -420,6 +420,16 @@ dialog {
   }
 
   .dialog-btn {
+    display: grid;
+  }
+}
+
+@media (max-width: 450px) {
+  #inputBook button {
+    width: 80%;
+  }
+
+  .action {
     display: grid;
   }
 }
