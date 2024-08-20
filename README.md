@@ -1,3 +1,6 @@
+# Preview
+![Submission Rating](https://github.com/dipintoo/IDCamp-Scholarship_Front-End-Dasar/blob/main/img/Submission%20Rating%20Front-End%20Dasar.png)
+
 # Apa itu IDCamp?
 IDCamp adalah sebuah program beasiswa yang diselenggarakan oleh Indosat Ooredoo Hutchison dengan tujuan untuk mencetak developer/programmer muda Indonesia yang siap bersaing di dunia ekonomi digital.
 
